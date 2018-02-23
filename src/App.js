@@ -5,6 +5,7 @@ import Widget from './containers/Widget';
 
 const Main = styled.main`
   position: relative;
+
   height: 100%;
 `;
 

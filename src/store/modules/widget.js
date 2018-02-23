@@ -8,7 +8,7 @@ const initialState = {
       leadActor: 'Dalton Keck',
       subGenre: 'Zombies',
       producer: 'Tim Cook',
-      iconColor: 'rgb(33, 150, 243)',
+      iconColor: '#00f',
     },
     {
       id: 3,
@@ -17,7 +17,7 @@ const initialState = {
       leadActor: 'Dalton Keck',
       subGenre: 'Insectoid',
       producer: 'Tim Cook',
-      iconColor: 'rgb(255, 0, 0)',
+      iconColor: '#f00',
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const initialState = {
       leadActor: 'Dalton Keck',
       subGenre: 'Nature',
       producer: 'Burt Reynolds',
-      iconColor: 'rgb(0, 255, 0)',
+      iconColor: '#0f0',
     },
   ],
 };

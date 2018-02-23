@@ -5,7 +5,13 @@
 .custom-vertical-timeline-component:before {
   right: 18px;
   left: auto;
-  background-color: #eeeeee;
+  background-color: #ccc;
+}
+
+.vertical-timeline:before {
+  top: 35px;
+  bottom: 40px;
+  height: auto;
 }
 
 .vertical-timeline-element--work {
@@ -30,21 +36,57 @@
   padding-top: 8px;
 }
 
+.vertical-timeline-element--work:first-child .vertical-timeline-element-content {
+  margin-top: 2px;
+  margin-right: 35px;
+  padding: 0;
+
+  text-align: right;
+  font-size: 0.7rem;
+  color: #ccc;
+}
+
+.vertical-timeline-element--work:last-child .vertical-timeline-element-content {
+  margin-top: 2px;
+  margin-right: 35px;
+  padding: 0;
+
+  text-align: right;
+  font-size: 0.7rem;
+  color: #ccc;
+}
+
 .vertical-timeline-element--work .vertical-timeline-element-content:before {
   position: absolute;
   left: auto;
   right: -9px;
   border-radius: 50%;
-  border: 5px solid #eeeeee;
+  border: 5px solid #ccc;
 }
 
 .vertical-timeline-element--work .vertical-timeline-element-content:after {
   content: '';
   position: absolute;
   top: 20px;
-  border-top: 2px solid #eeeeee;
+  border-top: 2px solid #ccc;
   width: 54px;
   right: -60px;
+}
+
+.vertical-timeline-element--work:first-child .vertical-timeline-element-content:before {
+  display: none;
+}
+
+.vertical-timeline-element--work:first-child .vertical-timeline-element-content:after {
+  display: none;
+}
+
+.vertical-timeline-element--work:last-child .vertical-timeline-element-content:before {
+  display: none;
+}
+
+.vertical-timeline-element--work:last-child .vertical-timeline-element-content:after {
+  display: none;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -63,7 +105,7 @@
     left: auto;
     right: -9px;
     border-radius: 50%;
-    border: 5px solid #eeeeee;
+    border: 5px solid #ccc;
     top: 16px;
   }
 
